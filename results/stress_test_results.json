@@ -1,0 +1,172 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "test_period": "2026-04-27 to 2026-10-26",
+  "individual_results": [
+    {
+      "seed": 42,
+      "total_trades": 638,
+      "total_pnl_net": -38829.355914859334,
+      "avg_trade_net_pnl": -60.86105942767921,
+      "win_rate": 62.06896551724138,
+      "max_drawdown": 15573.818882066458,
+      "ending_equity": 11170.644085140717,
+      "total_commission": 3960.0,
+      "peak_equity": 69280.08635292493,
+      "valley_equity": -5800.706861422226,
+      "avg_daily_pnl": -313.1399670553171,
+      "worst_day": -11750.112603629823,
+      "best_day": 4671.922350757877,
+      "mistake_counts": {
+        "revenge": 205,
+        "remove_stop": 15,
+        "drag_stop": 17,
+        "panic": 25,
+        "cut_winner_short": 19
+      },
+      "exit_counts": {
+        "TARGET": 377,
+        "STOP": 217,
+        "PANIC": 25,
+        "EARLY_EXIT": 19
+      }
+    },
+    {
+      "seed": 123,
+      "total_trades": 619,
+      "total_pnl_net": -44269.228105152,
+      "avg_trade_net_pnl": -71.51733134919547,
+      "win_rate": 62.84329563812601,
+      "max_drawdown": 14616.11548460814,
+      "ending_equity": 5730.771894848051,
+      "total_commission": 3835.0,
+      "peak_equity": 58283.01008659805,
+      "valley_equity": -6202.365748374448,
+      "avg_daily_pnl": -368.9102342095995,
+      "worst_day": -16277.361102867853,
+      "best_day": 5836.754735278955,
+      "mistake_counts": {
+        "revenge": 191,
+        "drag_stop": 20,
+        "cut_winner_short": 21,
+        "remove_stop": 15,
+        "panic": 21
+      },
+      "exit_counts": {
+        "TARGET": 368,
+        "STOP": 209,
+        "EARLY_EXIT": 21,
+        "PANIC": 21
+      }
+    },
+    {
+      "seed": 456,
+      "total_trades": 643,
+      "total_pnl_net": -26814.429860420598,
+      "avg_trade_net_pnl": -41.70206821216267,
+      "win_rate": 60.186625194401245,
+      "max_drawdown": 11591.782317056633,
+      "ending_equity": 23185.570139579322,
+      "total_commission": 3965.0,
+      "peak_equity": 75774.29531227297,
+      "valley_equity": 20468.868709317216,
+      "avg_daily_pnl": -214.51543888336485,
+      "worst_day": -10663.8688807584,
+      "best_day": 5486.658486674332,
+      "mistake_counts": {
+        "revenge": 206,
+        "cut_winner_short": 25,
+        "panic": 24,
+        "remove_stop": 17,
+        "drag_stop": 13
+      },
+      "exit_counts": {
+        "TARGET": 362,
+        "STOP": 232,
+        "EARLY_EXIT": 25,
+        "PANIC": 24
+      }
+    },
+    {
+      "seed": 789,
+      "total_trades": 692,
+      "total_pnl_net": -9134.089612331838,
+      "avg_trade_net_pnl": -13.19955146290728,
+      "win_rate": 62.71676300578035,
+      "max_drawdown": 14026.151944572448,
+      "ending_equity": 40865.91038766816,
+      "total_commission": 4260.0,
+      "peak_equity": 54259.53127134932,
+      "valley_equity": 9829.655365475153,
+      "avg_daily_pnl": -71.92196545143157,
+      "worst_day": -12910.54773275965,
+      "best_day": 4756.298465561285,
+      "mistake_counts": {
+        "revenge": 209,
+        "cut_winner_short": 30,
+        "remove_stop": 16,
+        "panic": 20,
+        "drag_stop": 16
+      },
+      "exit_counts": {
+        "TARGET": 404,
+        "STOP": 238,
+        "EARLY_EXIT": 30,
+        "PANIC": 20
+      }
+    },
+    {
+      "seed": 999,
+      "total_trades": 633,
+      "total_pnl_net": -55137.53355281474,
+      "avg_trade_net_pnl": -87.10510829828553,
+      "win_rate": 61.137440758293835,
+      "max_drawdown": 20517.097575526954,
+      "ending_equity": -5137.53355281479,
+      "total_commission": 3835.0,
+      "peak_equity": 55684.70572770375,
+      "valley_equity": -13512.406874790127,
+      "avg_daily_pnl": -459.47944627345663,
+      "worst_day": -19241.614179139306,
+      "best_day": 5203.551498169563,
+      "mistake_counts": {
+        "revenge": 199,
+        "cut_winner_short": 27,
+        "panic": 29,
+        "drag_stop": 9,
+        "remove_stop": 17
+      },
+      "exit_counts": {
+        "TARGET": 360,
+        "STOP": 217,
+        "EARLY_EXIT": 27,
+        "PANIC": 29
+      }
+    }
+  ],
+  "summary": {
+    "avg_trade_net_pnl": -54.877023750046035,
+    "std_trade_net_pnl": 28.55673783586105,
+    "avg_win_rate": 61.79061802276857,
+    "std_win_rate": 1.1228073689854725,
+    "avg_total_pnl": -34836.9274091157,
+    "std_total_pnl": 17621.14304835325,
+    "avg_max_drawdown": 15264.993240766129,
+    "std_max_drawdown": 3283.60403404507,
+    "avg_ending_equity": 15163.072590884292,
+    "std_ending_equity": 17621.143048353246,
+    "all_lost_money": true,
+    "total_mistakes": {
+      "revenge": 1010,
+      "remove_stop": 80,
+      "drag_stop": 75,
+      "panic": 119,
+      "cut_winner_short": 122
+    }
+  }
+}

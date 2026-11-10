@@ -30,3 +30,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# data & large artifacts
+/data/*.parquet
+/data/raw/
+results/live_actions.jsonl

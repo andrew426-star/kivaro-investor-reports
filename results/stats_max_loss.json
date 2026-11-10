@@ -1,0 +1,927 @@
+{
+  "test_optimized": {
+    "total_trades": 1801,
+    "total_pnl_net": -808400.0102403874,
+    "avg_trade_net_pnl": -448.86174916179203,
+    "win_rate": 80.62187673514714,
+    "total_wins": 1452,
+    "total_losses": 349,
+    "total_commission": 14315.0,
+    "max_drawdown": 839308.9266639873,
+    "starting_capital": 50000,
+    "ending_equity": -758400.0102403872,
+    "mistake_counts": {
+      "revenge": 220,
+      "drag_stop": 236,
+      "cut_winner_short": 343,
+      "panic": 276,
+      "remove_stop": 27
+    },
+    "exit_counts": {
+      "TARGET": 1109,
+      "EARLY_EXIT": 343,
+      "PANIC": 276,
+      "STOP": 73
+    },
+    "session_counts": {
+      "night": 1076,
+      "day": 725
+    },
+    "avg_win": 410.05672088625187,
+    "avg_loss": -4022.356358072276,
+    "largest_win": 789.1660537649295,
+    "largest_loss": -11510.0
+  },
+  "best_params": {
+    "stop_min": 12,
+    "stop_max": 25,
+    "target_min": 4,
+    "target_max": 8,
+    "size2_prob": 0.6,
+    "entry_lookback": 4,
+    "drag_prob": 0.85,
+    "remove_prob": 0.7,
+    "revenge_prob": 0.75
+  },
+  "daily_pnl": [
+    {
+      "date": "2026-04-27",
+      "pnl_net": 2102.746892466839,
+      "trades": 4,
+      "commission": 35.0
+    },
+    {
+      "date": "2026-04-28",
+      "pnl_net": -7997.501498543306,
+      "trades": 7,
+      "commission": 50.0
+    },
+    {
+      "date": "2026-04-29",
+      "pnl_net": 3069.6677183028805,
+      "trades": 12,
+      "commission": 110.0
+    },
+    {
+      "date": "2026-04-30",
+      "pnl_net": 1062.174063050279,
+      "trades": 25,
+      "commission": 215.0
+    },
+    {
+      "date": "2026-05-01",
+      "pnl_net": -1885.5861772145545,
+      "trades": 12,
+      "commission": 75.0
+    },
+    {
+      "date": "2026-05-04",
+      "pnl_net": 3687.532163624983,
+      "trades": 8,
+      "commission": 65.0
+    },
+    {
+      "date": "2026-05-05",
+      "pnl_net": -7154.691542010187,
+      "trades": 9,
+      "commission": 75.0
+    },
+    {
+      "date": "2026-05-06",
+      "pnl_net": -1892.8648917167811,
+      "trades": 14,
+      "commission": 110.0
+    },
+    {
+      "date": "2026-05-07",
+      "pnl_net": -1851.8970683134557,
+      "trades": 4,
+      "commission": 30.0
+    },
+    {
+      "date": "2026-05-08",
+      "pnl_net": -853.8062817892842,
+      "trades": 5,
+      "commission": 35.0
+    },
+    {
+      "date": "2026-05-10",
+      "pnl_net": 479.84192917596374,
+      "trades": 1,
+      "commission": 10.0
+    },
+    {
+      "date": "2026-05-11",
+      "pnl_net": -2350.073368319854,
+      "trades": 12,
+      "commission": 90.0
+    },
+    {
+      "date": "2026-05-12",
+      "pnl_net": 1215.7648501328913,
+      "trades": 18,
+      "commission": 140.0
+    },
+    {
+      "date": "2026-05-13",
+      "pnl_net": -1144.3581719600843,
+      "trades": 12,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-05-14",
+      "pnl_net": -496.9076350506566,
+      "trades": 7,
+      "commission": 45.0
+    },
+    {
+      "date": "2026-05-15",
+      "pnl_net": -2830.8226482532064,
+      "trades": 21,
+      "commission": 150.0
+    },
+    {
+      "date": "2026-05-18",
+      "pnl_net": -9931.228037952778,
+      "trades": 17,
+      "commission": 110.0
+    },
+    {
+      "date": "2026-05-19",
+      "pnl_net": 2388.0097013869545,
+      "trades": 22,
+      "commission": 175.0
+    },
+    {
+      "date": "2026-05-20",
+      "pnl_net": 2078.3894232370403,
+      "trades": 16,
+      "commission": 120.0
+    },
+    {
+      "date": "2026-05-21",
+      "pnl_net": -7832.83855290314,
+      "trades": 18,
+      "commission": 140.0
+    },
+    {
+      "date": "2026-05-22",
+      "pnl_net": -1019.9116203871017,
+      "trades": 10,
+      "commission": 80.0
+    },
+    {
+      "date": "2026-05-24",
+      "pnl_net": -2570.924037426903,
+      "trades": 3,
+      "commission": 25.0
+    },
+    {
+      "date": "2026-05-25",
+      "pnl_net": -6913.406225582921,
+      "trades": 4,
+      "commission": 35.0
+    },
+    {
+      "date": "2026-05-26",
+      "pnl_net": 3253.7855157608556,
+      "trades": 15,
+      "commission": 110.0
+    },
+    {
+      "date": "2026-05-28",
+      "pnl_net": -6585.010980533207,
+      "trades": 9,
+      "commission": 75.0
+    },
+    {
+      "date": "2026-05-29",
+      "pnl_net": 253.44364609238255,
+      "trades": 1,
+      "commission": 5.0
+    },
+    {
+      "date": "2026-06-01",
+      "pnl_net": -205.90577247698093,
+      "trades": 5,
+      "commission": 40.0
+    },
+    {
+      "date": "2026-06-02",
+      "pnl_net": 2016.8817311658586,
+      "trades": 13,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-06-03",
+      "pnl_net": -328.9289819982332,
+      "trades": 7,
+      "commission": 55.0
+    },
+    {
+      "date": "2026-06-04",
+      "pnl_net": 3582.3823068570437,
+      "trades": 10,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-06-05",
+      "pnl_net": 3612.3953229577182,
+      "trades": 14,
+      "commission": 125.0
+    },
+    {
+      "date": "2026-06-08",
+      "pnl_net": 2088.6234319354207,
+      "trades": 22,
+      "commission": 165.0
+    },
+    {
+      "date": "2026-06-09",
+      "pnl_net": 882.888890967215,
+      "trades": 25,
+      "commission": 190.0
+    },
+    {
+      "date": "2026-06-10",
+      "pnl_net": -19212.99050378907,
+      "trades": 25,
+      "commission": 200.0
+    },
+    {
+      "date": "2026-06-11",
+      "pnl_net": -33140.984324112556,
+      "trades": 20,
+      "commission": 150.0
+    },
+    {
+      "date": "2026-06-12",
+      "pnl_net": -3.607391208943227,
+      "trades": 20,
+      "commission": 145.0
+    },
+    {
+      "date": "2026-06-14",
+      "pnl_net": -11458.343419265548,
+      "trades": 3,
+      "commission": 30.0
+    },
+    {
+      "date": "2026-06-15",
+      "pnl_net": -104435.43196067351,
+      "trades": 32,
+      "commission": 250.0
+    },
+    {
+      "date": "2026-06-16",
+      "pnl_net": -67734.37123498128,
+      "trades": 27,
+      "commission": 190.0
+    },
+    {
+      "date": "2026-06-17",
+      "pnl_net": -77773.3467810507,
+      "trades": 30,
+      "commission": 225.0
+    },
+    {
+      "date": "2026-06-18",
+      "pnl_net": -27099.357185046083,
+      "trades": 23,
+      "commission": 185.0
+    },
+    {
+      "date": "2026-06-19",
+      "pnl_net": 4913.485365097795,
+      "trades": 10,
+      "commission": 95.0
+    },
+    {
+      "date": "2026-06-21",
+      "pnl_net": 1333.0012709416496,
+      "trades": 3,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-06-22",
+      "pnl_net": -2410.438428232419,
+      "trades": 16,
+      "commission": 125.0
+    },
+    {
+      "date": "2026-06-23",
+      "pnl_net": -3474.0079947623235,
+      "trades": 17,
+      "commission": 135.0
+    },
+    {
+      "date": "2026-06-24",
+      "pnl_net": 196.3190685493555,
+      "trades": 24,
+      "commission": 205.0
+    },
+    {
+      "date": "2026-06-25",
+      "pnl_net": 2202.64914728833,
+      "trades": 21,
+      "commission": 165.0
+    },
+    {
+      "date": "2026-06-26",
+      "pnl_net": 2366.2279363883044,
+      "trades": 22,
+      "commission": 175.0
+    },
+    {
+      "date": "2026-06-28",
+      "pnl_net": -2193.31442139538,
+      "trades": 2,
+      "commission": 10.0
+    },
+    {
+      "date": "2026-06-29",
+      "pnl_net": -1780.8182567818858,
+      "trades": 18,
+      "commission": 145.0
+    },
+    {
+      "date": "2026-06-30",
+      "pnl_net": -168.65856966439424,
+      "trades": 6,
+      "commission": 45.0
+    },
+    {
+      "date": "2026-07-01",
+      "pnl_net": 4762.817213714452,
+      "trades": 10,
+      "commission": 95.0
+    },
+    {
+      "date": "2026-07-02",
+      "pnl_net": 5327.947402202217,
+      "trades": 24,
+      "commission": 205.0
+    },
+    {
+      "date": "2026-07-03",
+      "pnl_net": -2191.5457116475136,
+      "trades": 3,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-07-06",
+      "pnl_net": -1166.1908042833693,
+      "trades": 5,
+      "commission": 35.0
+    },
+    {
+      "date": "2026-07-07",
+      "pnl_net": 1374.9440711534407,
+      "trades": 16,
+      "commission": 145.0
+    },
+    {
+      "date": "2026-07-08",
+      "pnl_net": 11111.668321748393,
+      "trades": 25,
+      "commission": 210.0
+    },
+    {
+      "date": "2026-07-09",
+      "pnl_net": 1298.58494629686,
+      "trades": 12,
+      "commission": 105.0
+    },
+    {
+      "date": "2026-07-10",
+      "pnl_net": 2358.8398068781407,
+      "trades": 15,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-07-12",
+      "pnl_net": 1029.2983753095632,
+      "trades": 2,
+      "commission": 15.0
+    },
+    {
+      "date": "2026-07-13",
+      "pnl_net": 1715.4367938894848,
+      "trades": 12,
+      "commission": 80.0
+    },
+    {
+      "date": "2026-07-14",
+      "pnl_net": -5561.211656504811,
+      "trades": 14,
+      "commission": 120.0
+    },
+    {
+      "date": "2026-07-15",
+      "pnl_net": 1432.3515434519777,
+      "trades": 13,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-07-16",
+      "pnl_net": 7760.490281070743,
+      "trades": 21,
+      "commission": 180.0
+    },
+    {
+      "date": "2026-07-17",
+      "pnl_net": 7611.681103845876,
+      "trades": 23,
+      "commission": 200.0
+    },
+    {
+      "date": "2026-07-20",
+      "pnl_net": -4171.9760354375285,
+      "trades": 12,
+      "commission": 105.0
+    },
+    {
+      "date": "2026-07-21",
+      "pnl_net": -874.8387128767899,
+      "trades": 13,
+      "commission": 120.0
+    },
+    {
+      "date": "2026-07-22",
+      "pnl_net": 2015.430108118917,
+      "trades": 15,
+      "commission": 110.0
+    },
+    {
+      "date": "2026-07-23",
+      "pnl_net": 2172.700108249255,
+      "trades": 26,
+      "commission": 220.0
+    },
+    {
+      "date": "2026-07-24",
+      "pnl_net": -1297.7052782029568,
+      "trades": 17,
+      "commission": 140.0
+    },
+    {
+      "date": "2026-07-26",
+      "pnl_net": -5486.990872408769,
+      "trades": 2,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-07-27",
+      "pnl_net": 6570.265972608004,
+      "trades": 24,
+      "commission": 210.0
+    },
+    {
+      "date": "2026-07-28",
+      "pnl_net": 4939.196288322255,
+      "trades": 13,
+      "commission": 95.0
+    },
+    {
+      "date": "2026-07-29",
+      "pnl_net": 2527.7753900392327,
+      "trades": 22,
+      "commission": 175.0
+    },
+    {
+      "date": "2026-07-30",
+      "pnl_net": -6827.11202692175,
+      "trades": 16,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-07-31",
+      "pnl_net": 2324.660956050784,
+      "trades": 17,
+      "commission": 140.0
+    },
+    {
+      "date": "2026-08-02",
+      "pnl_net": 247.7612149892775,
+      "trades": 1,
+      "commission": 5.0
+    },
+    {
+      "date": "2026-08-03",
+      "pnl_net": -1167.6668345737562,
+      "trades": 5,
+      "commission": 40.0
+    },
+    {
+      "date": "2026-08-04",
+      "pnl_net": -1479.1763993584573,
+      "trades": 14,
+      "commission": 110.0
+    },
+    {
+      "date": "2026-08-05",
+      "pnl_net": 2677.162180387095,
+      "trades": 17,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-08-06",
+      "pnl_net": 4238.374680873931,
+      "trades": 8,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-08-07",
+      "pnl_net": -1059.0210353610382,
+      "trades": 5,
+      "commission": 40.0
+    },
+    {
+      "date": "2026-08-10",
+      "pnl_net": 382.5529118636223,
+      "trades": 1,
+      "commission": 5.0
+    },
+    {
+      "date": "2026-08-11",
+      "pnl_net": 1524.4032015832,
+      "trades": 5,
+      "commission": 35.0
+    },
+    {
+      "date": "2026-08-12",
+      "pnl_net": -5279.749362443163,
+      "trades": 3,
+      "commission": 30.0
+    },
+    {
+      "date": "2026-08-13",
+      "pnl_net": -1026.6528656821174,
+      "trades": 5,
+      "commission": 40.0
+    },
+    {
+      "date": "2026-08-17",
+      "pnl_net": -396.89593510878694,
+      "trades": 9,
+      "commission": 65.0
+    },
+    {
+      "date": "2026-08-18",
+      "pnl_net": 5478.741136107519,
+      "trades": 13,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-08-19",
+      "pnl_net": 196.42731032141455,
+      "trades": 7,
+      "commission": 65.0
+    },
+    {
+      "date": "2026-08-20",
+      "pnl_net": 6937.750414096918,
+      "trades": 15,
+      "commission": 130.0
+    },
+    {
+      "date": "2026-08-21",
+      "pnl_net": -2602.388336830536,
+      "trades": 11,
+      "commission": 95.0
+    },
+    {
+      "date": "2026-08-23",
+      "pnl_net": 1006.3966148925647,
+      "trades": 3,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-08-24",
+      "pnl_net": 3033.7737458383526,
+      "trades": 17,
+      "commission": 130.0
+    },
+    {
+      "date": "2026-08-25",
+      "pnl_net": 1267.4996320657647,
+      "trades": 10,
+      "commission": 90.0
+    },
+    {
+      "date": "2026-08-26",
+      "pnl_net": -1342.4834036963057,
+      "trades": 12,
+      "commission": 90.0
+    },
+    {
+      "date": "2026-08-27",
+      "pnl_net": 4399.955158649891,
+      "trades": 12,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-08-28",
+      "pnl_net": -10352.077659417628,
+      "trades": 5,
+      "commission": 40.0
+    },
+    {
+      "date": "2026-08-30",
+      "pnl_net": 973.6051182741085,
+      "trades": 2,
+      "commission": 15.0
+    },
+    {
+      "date": "2026-08-31",
+      "pnl_net": -9610.063808000104,
+      "trades": 13,
+      "commission": 95.0
+    },
+    {
+      "date": "2026-09-01",
+      "pnl_net": -3828.3578113618023,
+      "trades": 18,
+      "commission": 155.0
+    },
+    {
+      "date": "2026-09-02",
+      "pnl_net": 1983.3853401565739,
+      "trades": 13,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-09-03",
+      "pnl_net": -326.18727620197205,
+      "trades": 7,
+      "commission": 50.0
+    },
+    {
+      "date": "2026-09-04",
+      "pnl_net": -9927.64591487662,
+      "trades": 12,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-09-06",
+      "pnl_net": -716.808345161071,
+      "trades": 3,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-09-07",
+      "pnl_net": -21327.2887750663,
+      "trades": 12,
+      "commission": 85.0
+    },
+    {
+      "date": "2026-09-08",
+      "pnl_net": 1345.7539182418896,
+      "trades": 5,
+      "commission": 30.0
+    },
+    {
+      "date": "2026-09-09",
+      "pnl_net": -7471.432088909314,
+      "trades": 9,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-09-10",
+      "pnl_net": -30713.48627393766,
+      "trades": 19,
+      "commission": 130.0
+    },
+    {
+      "date": "2026-09-11",
+      "pnl_net": -19682.66530068429,
+      "trades": 16,
+      "commission": 120.0
+    },
+    {
+      "date": "2026-09-13",
+      "pnl_net": 431.5495161115359,
+      "trades": 1,
+      "commission": 10.0
+    },
+    {
+      "date": "2026-09-14",
+      "pnl_net": -94381.8914722661,
+      "trades": 30,
+      "commission": 250.0
+    },
+    {
+      "date": "2026-09-15",
+      "pnl_net": -84563.91297849562,
+      "trades": 34,
+      "commission": 245.0
+    },
+    {
+      "date": "2026-09-16",
+      "pnl_net": -89542.90630495871,
+      "trades": 36,
+      "commission": 305.0
+    },
+    {
+      "date": "2026-09-17",
+      "pnl_net": -100616.48837611935,
+      "trades": 35,
+      "commission": 280.0
+    },
+    {
+      "date": "2026-09-18",
+      "pnl_net": -9335.390186383192,
+      "trades": 22,
+      "commission": 180.0
+    },
+    {
+      "date": "2026-09-21",
+      "pnl_net": -2205.370698670067,
+      "trades": 8,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-09-22",
+      "pnl_net": -1863.6536593086294,
+      "trades": 4,
+      "commission": 30.0
+    },
+    {
+      "date": "2026-09-23",
+      "pnl_net": 2956.390984138943,
+      "trades": 6,
+      "commission": 50.0
+    },
+    {
+      "date": "2026-09-24",
+      "pnl_net": -4393.568056071708,
+      "trades": 14,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-09-25",
+      "pnl_net": -1406.4674128423667,
+      "trades": 5,
+      "commission": 35.0
+    },
+    {
+      "date": "2026-09-27",
+      "pnl_net": -1457.2075475882411,
+      "trades": 2,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-09-28",
+      "pnl_net": -4024.2194732062217,
+      "trades": 13,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-09-29",
+      "pnl_net": 3743.4426056570646,
+      "trades": 8,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-09-30",
+      "pnl_net": -5470.292070620226,
+      "trades": 3,
+      "commission": 15.0
+    },
+    {
+      "date": "2026-10-01",
+      "pnl_net": -9635.857947330342,
+      "trades": 17,
+      "commission": 140.0
+    },
+    {
+      "date": "2026-10-02",
+      "pnl_net": -1449.941947250827,
+      "trades": 11,
+      "commission": 85.0
+    },
+    {
+      "date": "2026-10-05",
+      "pnl_net": -3932.592681129172,
+      "trades": 10,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-10-06",
+      "pnl_net": 590.3800654023507,
+      "trades": 7,
+      "commission": 60.0
+    },
+    {
+      "date": "2026-10-07",
+      "pnl_net": 2769.0767712372144,
+      "trades": 7,
+      "commission": 60.0
+    },
+    {
+      "date": "2026-10-08",
+      "pnl_net": 743.1307901267519,
+      "trades": 18,
+      "commission": 145.0
+    },
+    {
+      "date": "2026-10-11",
+      "pnl_net": -2705.0,
+      "trades": 1,
+      "commission": 5.0
+    },
+    {
+      "date": "2026-10-12",
+      "pnl_net": 3325.742148645877,
+      "trades": 8,
+      "commission": 70.0
+    },
+    {
+      "date": "2026-10-13",
+      "pnl_net": 836.5807194393528,
+      "trades": 3,
+      "commission": 20.0
+    },
+    {
+      "date": "2026-10-14",
+      "pnl_net": 1611.4925570308242,
+      "trades": 19,
+      "commission": 155.0
+    },
+    {
+      "date": "2026-10-15",
+      "pnl_net": 91.51334210954701,
+      "trades": 10,
+      "commission": 85.0
+    },
+    {
+      "date": "2026-10-16",
+      "pnl_net": 5603.918683129768,
+      "trades": 12,
+      "commission": 100.0
+    },
+    {
+      "date": "2026-10-18",
+      "pnl_net": 1471.1221295872929,
+      "trades": 3,
+      "commission": 30.0
+    },
+    {
+      "date": "2026-10-19",
+      "pnl_net": 2581.2919747294563,
+      "trades": 15,
+      "commission": 115.0
+    },
+    {
+      "date": "2026-10-20",
+      "pnl_net": 5753.976987479991,
+      "trades": 13,
+      "commission": 105.0
+    },
+    {
+      "date": "2026-10-21",
+      "pnl_net": -1700.2360460909222,
+      "trades": 11,
+      "commission": 85.0
+    },
+    {
+      "date": "2026-10-22",
+      "pnl_net": -1248.6013556432954,
+      "trades": 13,
+      "commission": 105.0
+    },
+    {
+      "date": "2026-10-23",
+      "pnl_net": 2955.6566944307815,
+      "trades": 18,
+      "commission": 130.0
+    },
+    {
+      "date": "2026-10-25",
+      "pnl_net": 1684.4328560109261,
+      "trades": 3,
+      "commission": 25.0
+    },
+    {
+      "date": "2026-10-26",
+      "pnl_net": 190.0,
+      "trades": 1,
+      "commission": 10.0
+    }
+  ],
+  "day_night": {
+    "day_trades": 725,
+    "night_trades": 1076,
+    "day_avg_pnl": -185.35240255985153,
+    "night_avg_pnl": -626.4121918071509
+  },
+  "metadata": {
+    "starting_capital": 50000,
+    "commission_per_contract": 5.0,
+    "es_point_value": 50.0,
+    "test_period": "2026-04-27 to 2026-10-26",
+    "seed": 42,
+    "objective": "maximize average trade net loss (forward test optimized)",
+    "trades_overnight": true
+  }
+}

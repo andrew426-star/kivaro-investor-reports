@@ -1,0 +1,97 @@
+{
+  "0.0": {
+    "avg_trade_net_pnl": -448.86174916179203,
+    "total_trades": 1801,
+    "win_rate": 80.62187673514714,
+    "max_drawdown": 839308.9266639873,
+    "ending_equity": -758400.0102403872,
+    "total_slippage": 0.0,
+    "best_params": {
+      "stop_min": 12,
+      "stop_max": 25,
+      "target_min": 4,
+      "target_max": 8,
+      "size2_prob": 0.6,
+      "entry_lookback": 4,
+      "drag_prob": 0.85,
+      "remove_prob": 0.7,
+      "revenge_prob": 0.75
+    }
+  },
+  "0.5": {
+    "avg_trade_net_pnl": -468.7326542145405,
+    "total_trades": 1801,
+    "win_rate": 80.62187673514714,
+    "max_drawdown": 871696.4266639876,
+    "ending_equity": -794187.5102403874,
+    "total_slippage": 35787.5,
+    "best_params": {
+      "stop_min": 12,
+      "stop_max": 25,
+      "target_min": 4,
+      "target_max": 8,
+      "size2_prob": 0.6,
+      "entry_lookback": 4,
+      "drag_prob": 0.85,
+      "remove_prob": 0.7,
+      "revenge_prob": 0.75
+    }
+  },
+  "1.0": {
+    "avg_trade_net_pnl": -488.6035592672888,
+    "total_trades": 1801,
+    "win_rate": 80.62187673514714,
+    "max_drawdown": 904083.9266639876,
+    "ending_equity": -829975.0102403874,
+    "total_slippage": 71575.0,
+    "best_params": {
+      "stop_min": 12,
+      "stop_max": 25,
+      "target_min": 4,
+      "target_max": 8,
+      "size2_prob": 0.6,
+      "entry_lookback": 4,
+      "drag_prob": 0.85,
+      "remove_prob": 0.7,
+      "revenge_prob": 0.75
+    }
+  },
+  "1.5": {
+    "avg_trade_net_pnl": -508.47446432003744,
+    "total_trades": 1801,
+    "win_rate": 80.62187673514714,
+    "max_drawdown": 936471.4266639876,
+    "ending_equity": -865762.5102403874,
+    "total_slippage": 107362.5,
+    "best_params": {
+      "stop_min": 12,
+      "stop_max": 25,
+      "target_min": 4,
+      "target_max": 8,
+      "size2_prob": 0.6,
+      "entry_lookback": 4,
+      "drag_prob": 0.85,
+      "remove_prob": 0.7,
+      "revenge_prob": 0.75
+    }
+  },
+  "2.0": {
+    "avg_trade_net_pnl": -528.3453693727859,
+    "total_trades": 1801,
+    "win_rate": 80.62187673514714,
+    "max_drawdown": 968858.9266639873,
+    "ending_equity": -901550.0102403872,
+    "total_slippage": 143150.0,
+    "best_params": {
+      "stop_min": 12,
+      "stop_max": 25,
+      "target_min": 4,
+      "target_max": 8,
+      "size2_prob": 0.6,
+      "entry_lookback": 4,
+      "drag_prob": 0.85,
+      "remove_prob": 0.7,
+      "revenge_prob": 0.75
+    }
+  }
+}
